@@ -6,7 +6,7 @@ public class Student {
 		System.out.println("java simple");
 		System.out.println("java simple");
 		System.out.println("java simple");
-		System.out.println("java simple");
+	    System.out.println("java simple");
 		
 	}
 

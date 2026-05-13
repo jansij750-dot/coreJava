@@ -8,14 +8,14 @@ public class Bank {
 	String name;
 	
 	
-	{
-		acc_no++;//increment to increase the numbers 
-	}
+	//{
+		//acc_no++;//increment to increase the numbers 
+	//}
 	
 	void display() {
 		System.out.println(name);
 		System.out.println(balance_amount);
-		System.out.println(acc_no);
+		System.out.println(acc_no++);
 		
 	}
 	

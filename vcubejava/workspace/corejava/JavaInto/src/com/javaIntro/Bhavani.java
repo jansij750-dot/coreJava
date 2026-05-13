@@ -16,10 +16,10 @@ public class Bhavani {
 	
 	
 	BigDecimal d = new BigDecimal("921087654356789029876543456789.9876543");
-	//BigDecimal d1 = new BigDecimal("921087654356789029876543456789.98765431234567890d");
-	//BigDecimal d2= new BigDecimal("921087654356789029876543456789.9876543098765432f");
+	BigDecimal d1 = new BigDecimal("921087654356789029876543456789.98765431234567890");
+	BigDecimal d2= new BigDecimal("921087654356789029876543456789.9876543098765432");
 	//BigDecimal d3= new BigDecimal("9210876543567890298765434567899876543e");
-	//BigDecimal d4 = new BigDecimal(127);
+	BigDecimal d4 = new BigDecimal(127);
 	//BigDecimal d5 = new BigDecimal("9210876543567890298765434567e");
 	
 	
@@ -55,10 +55,14 @@ public class Bhavani {
 		
 		
 		
-		//System.out.println(b.d.subtract(b.d3));
-		//System.out.println(b.d4);
-		//System.out.println(b.d4);
-		//System.out.println(b.d3.divide(b.d5));
+		System.out.println(b.d.multiply(b.d1));
+		System.out.println("----------------------------------------------");
+		
+		System.out.println(b.d4.subtract(b.d1));
+		System.out.println("----------------------------------------------");
+		System.out.println(b.d4.add(b.d2));
+		System.out.println("----------------------------------------------");
+		System.out.println(b.d.divide(b.d4,2,BigDecimal.ROUND_HALF_UP));
 		//System.out.println(b.d);
 		
 		
